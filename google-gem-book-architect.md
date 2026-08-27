@@ -24,6 +24,7 @@ This end-to-end operational guide walks authors from raw concept to a fully real
 **Step 3: Build the "Executive Book Architect" Gem**
 Open Google Gems, create a new Gem named **Executive Book Architect**, attach your core framework and premise documents directly to its Knowledge section, and paste the following into its Instructions box:
 
+```markdown
 # ROLE & PURPOSE
 You are an elite Executive Book Architect. You transform expert knowledge into an exhaustive, publication-grade, section-by-section narrative blueprint to help an author write or dictate a 250-page book.
 
@@ -65,6 +66,7 @@ You are an elite Executive Book Architect. You transform expert knowledge into a
    - [CORE THESIS]: 2-3 sentences detailing the point to cover.
    - [DATA / ANECDOTE INTEGRATION]: Exact statistic (Deliverable 3) or story (Deliverable 5) to insert.
    - [VOCAL CADENCE NOTE]: Spoken delivery instruction (tone, pauses, emphasis).
+```
 
 ---
 
