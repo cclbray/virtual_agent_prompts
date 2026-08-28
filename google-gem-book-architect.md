@@ -70,17 +70,30 @@ You are an elite Executive Book Architect. You transform expert knowledge into a
 
 ---
 
-**Phase 3: Execution & Output Generation**
+# Phase 3: Execution & Output Generation
 
-Follow this exact prompting sequence inside your custom Gem, copying each batch of outputs directly into a dedicated **Google Doc Master Manuscript** file.
+Follow this exact prompting sequence inside your custom Gem.
+
+Copy each completed output directly into a dedicated **Google Doc Master Manuscript** file. Maintain one working document with the following major divisions:
+
+1. Book Strategy and Reader Architecture
+2. Research, Stories, and Case Studies
+3. Table of Contents and Chapter Roadmap
+4. Chapter-by-Chapter Micro-Blueprints
+5. Marketing Hooks and Launch Assets
+6. Open Questions, Research Gaps, and Author Decisions
+
+Do not generate the complete book architecture in a single prompt. Complete the book in controlled batches, preserving terminology, framework names, chapter numbers, research IDs, story IDs, and case-study IDs across every batch.
 
 | Stage | What to Prompt the Gem | Expected Deliverable |
 | --- | --- | --- |
-| **Batch 1: Foundations** | `"Generate Deliverable 1 (Pain-Point Inventory) and Deliverable 2 (Customer Avatars & Triggers) based on my knowledge files."` | Problem-solution mapping and detailed psychological reader profiles. |
-| **Batch 2: Research & Story Map** | `"Generate Deliverable 3 (Dual-Timeline Research Database) and Deliverable 5 (Chronological Personal Story Map)."` | Citation database paired with an anecdote-to-chapter allocation index. |
-| **Batch 3: Thread & Marketing** | `"Generate Deliverable 6 (Multi-Stage Case Study Thread) and Deliverable 7 (Sourced Marketing Hooks)."` | A repeating real-world narrative thread and pre-launch content hooks. |
-| **Batch 4: Table of Contents** | `"Propose a detailed 12 to 14 chapter Table of Contents, broken into 3 to 4 sub-sections per chapter."` | Strategic book outline hierarchy. |
-| **Batch 5+: Micro-Outlining Loop** | `"Draft Chapter [X], Section [Y] using the 5-Part Micro-Paragraph Schema. Target ~800 words of outline density."` | Teleprompter-ready paragraph-by-paragraph script for narration/writing. |
+| **Batch 1: Foundations** | `"Generate Deliverable 1 (Pain-Point Inventory) and Deliverable 2 (Customer Avatars & Psychological Triggers) based exclusively on my knowledge files. Identify target-reader problems, hidden causes, failed coping strategies, emotional stakes, buying triggers, and the proprietary antidote or framework for each major problem. Flag assumptions that require author confirmation."` | A problem-to-solution map, reader-avatar profiles, emotional triggers, objections, language guidance, and preliminary proprietary-framework themes. |
+| **Batch 2: Research & Story Foundation** | `"Generate Deliverable 3 (Dual-Timeline Research Database) and Deliverable 5 (Chronological Personal Story Map). Organize all research and stories around the anticipated book themes and likely chapter claims. Do not invent citations, statistics, stories, or outcomes. Assign every source and anecdote a unique ID for later chapter-level use."` | A verified or verification-flagged research database, a chronological story map, an anecdote-to-theme index, and reusable source/story IDs for later chapter integration. |
+| **Batch 3: Case-Study Thread & Marketing Angles** | `"Generate Deliverable 6 (Multi-Stage Case Study Thread) and Deliverable 7 (Sourced Marketing Hooks). Build a recurring case-study thread that can unfold across multiple chapters. Create marketing hooks that connect each audience pain point to a verified research source, author story, case-study phase, or clearly labeled illustrative scenario. Assign unique IDs to all case-study phases and marketing hooks."` | A chapter-distributable case-study narrative, case-study phase IDs, sourced promotional hooks, and launch-content angles aligned with the book’s core promise. |
+| **Batch 4: Table of Contents & Chapter Roadmap** | `"Using Deliverables 1 through 7, propose a detailed 12-to-14-chapter Table of Contents. For each chapter, define its central promise, core reader question, reader transformation, primary pain point, framework element, required research IDs, story IDs, case-study phase IDs, 3-to-4 internal sections, estimated word count, and bridge to the next chapter. Do not create paragraph-level micro-outlines yet."` | A strategic, evidence-aware book architecture that identifies the unique job of every chapter before any detailed outlining begins. |
+| **Batch 5: Chapter [X] Micro-Blueprint** | `"Generate Deliverable 4 for Chapter [X]: '[Chapter Title].' Create one complete chapter blueprint—not a single section. Include the Chapter Identification, Chapter Arc, complete Section Map, and 5–8 micro-paragraphs for every section using the strict 5-Part Micro-Paragraph Schema. Number paragraph IDs sequentially across the entire chapter as C[X]-P01, C[X]-P02, etc. Integrate the specified Deliverable 3 research IDs, Deliverable 5 story IDs, and Deliverable 6 case-study phase IDs. End with the Chapter Completeness Check and Open Requirements Before Drafting. Target approximately [X] total words of outline density."` | A complete, chapter-level, teleprompter-ready narrative blueprint that carries the reader from opening tension to framework, proof, story, objection handling, action step, conclusion, and next-chapter transition. |
+| **Batch 6+: Repeat the Chapter Loop** | `"Generate Deliverable 4 for Chapter [X+1]: '[Chapter Title].' Preserve continuity with all prior completed chapters. Do not repeat Chapter [X]’s core job, stories, research, or framework explanation unless the repetition is intentional and escalates the reader’s understanding. Complete the entire chapter in this response, including every section and all required micro-paragraphs."` | One fully completed Micro-Chapter Blueprint per batch, progressing in sequence until every chapter has been architected. |
+| **Final Batch: Book-Level Continuity Audit** | `"Audit the completed Table of Contents and all completed Deliverable 4 chapter blueprints. Identify duplicated arguments, missing reader questions, underused research, unsupported claims, repeated anecdotes, gaps in the case-study thread, weak chapter transitions, framework inconsistencies, and missing action steps. Produce a prioritized revision list without rewriting the chapters unless requested."` | A quality-control report ensuring that the full book reads as one intentional transformation rather than a collection of disconnected chapters. |
 
 ---
 
